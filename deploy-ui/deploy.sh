@@ -9,7 +9,7 @@ ACR_PASS="${AZURE_ACR_PASS}"
 FIXED_REPO="tnext_devlink"
 
 REPO_URL="https://tssconsultancy.visualstudio.com/TrackWizzNext/_git/TrackWizzNext"
-REPO_DIR="${TEMP}/TrackWizzNext"
+REPO_DIR="./TrackWizzNext"
 
 # ─── Inputs from environment (set by server.js) ───────────────────────────────
 BRANCH="${DEPLOY_BRANCH}"
